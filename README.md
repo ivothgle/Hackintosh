@@ -8,7 +8,7 @@
 | 处理器   | Intel Core i5-4210M @ 2.60GHz 双核 |
 | 显卡     | Intel HD Graphics 4600             |
 | 显示器   | 三星 1920x1080 (15.6 英寸)         |
-| 声卡     | VIA VT10802 (节点:3/33)            |
+| 声卡     | VIA VT10802 (节点:3/33/65)            |
 | 网卡     | 英特尔网卡已更换为 BCM95352HMB     |
 | 蓝牙     | 使用 BCM95352HMB                   |
 
@@ -62,13 +62,14 @@
 > | ------- | -------------- | ---------------------------------- | ----- |
 > | 20      | WLAN_DISABLE_L | WLAN disable control (Active low). | Input |
 > | 51      | BT_DISABLE_L   | BT disable control (Active low).   | Input |
+>
 > [查看针脚位置图片](https://www.tenforums.com/network-sharing/115932-intel-ac-7260-wi-fi-pci-e-asus-g73sw-laptop-win10-pro-64-no-go-2.html#post1438095)
 
 
 
 屏蔽独显和亮度键修复使用 hotpatch 补丁， 如使用 `ApplePS2SmartTouchPad.kext` 驱动的话可能导致亮度键无效。
 
-
+更新 `AppleALC.kext` 到 `1.3.8` 后，可使用 layout-id 65。
 
 ## 鸣谢
 

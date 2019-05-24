@@ -6,8 +6,8 @@
 	<dict>
 		<key>AutoMerge</key>
 		<true/>
-        <key>FixHeaders</key>
-        <true/>
+		<key>FixHeaders</key>
+		<true/>
 		<key>DSDT</key>
 		<dict>
 			<key>DropOEM_DSM</key>
@@ -27,97 +27,65 @@
 					<key>Comment</key>
 					<string>change EHC1 to EH01</string>
 					<key>Find</key>
-					<data>
-					RUhDMQ==
-					</data>
+					<data>RUhDMQ==</data>
 					<key>Replace</key>
-					<data>
-					RUgwMQ==
-					</data>
+					<data>RUgwMQ==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change EHC2 to EH02</string>
 					<key>Find</key>
-					<data>
-					RUhDMg==
-					</data>
+					<data>RUhDMg==</data>
 					<key>Replace</key>
-					<data>
-					RUgwMg==
-					</data>
+					<data>RUgwMg==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change GFX0 to IGPU</string>
 					<key>Find</key>
-					<data>
-					R0ZYMA==
-					</data>
+					<data>R0ZYMA==</data>
 					<key>Replace</key>
-					<data>
-					SUdQVQ==
-					</data>
+					<data>SUdQVQ==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Method (_REG, 2, N)  to XREG in DSDT</string>
 					<key>Find</key>
-					<data>
-					EV9SRUcC
-					</data>
+					<data>EV9SRUcC</data>
 					<key>Replace</key>
-					<data>
-					EVhSRUcC
-					</data>
+					<data>EVhSRUcC</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Method (_WAK, 1, S) to XWAK in DSDT</string>
 					<key>Find</key>
-					<data>
-					X1dBSwk=
-					</data>
+					<data>X1dBSwk=</data>
 					<key>Replace</key>
-					<data>
-					WFdBSwk=
-					</data>
+					<data>WFdBSwk=</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Method(SGOF, 0, S) to XGOF in SSDT-5</string>
 					<key>Find</key>
-					<data>
-					U0dPRgg=
-					</data>
+					<data>U0dPRgg=</data>
 					<key>Replace</key>
-					<data>
-					WEdPRgg=
-					</data>
+					<data>WEdPRgg=</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Method (_INI, 0, N) to XINI in SSDT-5</string>
 					<key>Find</key>
-					<data>
-					X0lOSQBwAFwv
-					</data>
+					<data>X0lOSQBwAFwv</data>
 					<key>Replace</key>
-					<data>
-					WElOSQBwAFwv
-					</data>
+					<data>WElOSQBwAFwv</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Method (_Q12, 0, N) to XQ12 in DSDT</string>
 					<key>Find</key>
-					<data>
-					X1ExMgBwCg==
-					</data>
+					<data>X1ExMgBwCg==</data>
 					<key>Replace</key>
-					<data>
-					WFExMgBwCg==
-					</data>
+					<data>WFExMgBwCg==</data>
 				</dict>
 			</array>
 		</dict>
@@ -166,47 +134,29 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>
-				AAAWBA==
-				</data>
+				<data>AAAWBA==</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal</string>
 				<key>#AAPL00,override-no-edid</key>
 				<data></data>
 				<key>device-id</key>
-				<data>
-				EgQAAA==
-				</data>
+				<data>EgQAAA==</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
 				<key>disable-external-gpu</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>enable-hdmi20</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con2-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con2-index</key>
-				<data>
-				/////w==
-				</data>
+				<data>/////w==</data>
 				<key>framebuffer-patch-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-portcount</key>
-				<data>
-				AgAAAA==
-				</data>
+				<data>AgAAAA==</data>
 				<key>framebuffer-unifiedmem</key>
-				<data>
-				AAAAgA==
-				</data>
+				<data>AAAAgA==</data>
 				<key>model</key>
 				<string>Intel HD Graphics 4600</string>
 			</dict>
@@ -219,9 +169,7 @@
 				<key>hda-gfx</key>
 				<string>onboard-2</string>
 				<key>layout-id</key>
-				<data>
-				AwAAAA==
-				</data>
+				<data>QQAAAA==</data>
 				<key>model</key>
 				<string>Intel 8 Series HD Audio</string>
 			</dict>
@@ -292,9 +240,9 @@
 	</dict>
 	<key>Graphics</key>
 	<dict>
-        <key>#ig-platform-id</key>
-        <string>0x0a260006</string>
-        <key>Inject</key>
+		<key>#ig-platform-id</key>
+		<string>0x0a260006</string>
+		<key>Inject</key>
 		<dict>
 			<key>ATI</key>
 			<false/>
@@ -326,27 +274,19 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				ILniAAAADzA=
-				</data>
+				<data>ILniAAAADzA=</data>
 				<key>Replace</key>
-				<data>
-				ILniAAAAkJA=
-				</data>
+				<data>ILniAAAAkJA=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Disable panic kext logging on 10.14 release kernel (credit vit9696)</string>
 				<key>Find</key>
-				<data>
-				igKEwHRC
-				</data>
+				<data>igKEwHRC</data>
 				<key>MatchOS</key>
 				<string>10.14.x</string>
 				<key>Replace</key>
-				<data>
-				igKEwOtC
-				</data>
+				<data>igKEwOtC</data>
 			</dict>
 		</array>
 		<key>KextsToPatch</key>
@@ -354,10 +294,10 @@
 	</dict>
 	<key>RtVariables</key>
 	<dict>
-		<key>CsrActiveConfig</key>
-		<string>0x67</string>
 		<key>BooterConfig</key>
 		<string>0x28</string>
+		<key>CsrActiveConfig</key>
+		<string>0x67</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
