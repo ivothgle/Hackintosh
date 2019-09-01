@@ -22,74 +22,6 @@
 	<string>1.0</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>MacBookPro11,1-EH01</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleUSBMergeNub</string>
-			<key>IOClass</key>
-			<string>AppleUSBMergeNub</string>
-			<key>IONameMatch</key>
-			<string>EH01</string>
-			<key>IOProbeScore</key>
-			<integer>5000</integer>
-			<key>IOProviderClass</key>
-			<string>AppleUSBEHCIPCI</string>
-			<key>IOProviderMergeProperties</key>
-			<dict>
-				<key>port-count</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>ports</key>
-				<dict>
-					<key>PR11</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>255</integer>
-						<key>port</key>
-						<data>
-						AQAAAA==
-						</data>
-					</dict>
-				</dict>
-			</dict>
-			<key>model</key>
-			<string>MacBookPro11,1</string>
-		</dict>
-		<key>MacBookPro11,1-EH02</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleUSBMergeNub</string>
-			<key>IOClass</key>
-			<string>AppleUSBMergeNub</string>
-			<key>IONameMatch</key>
-			<string>EH02</string>
-			<key>IOProbeScore</key>
-			<integer>5000</integer>
-			<key>IOProviderClass</key>
-			<string>AppleUSBEHCIPCI</string>
-			<key>IOProviderMergeProperties</key>
-			<dict>
-				<key>port-count</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>ports</key>
-				<dict>
-					<key>PR21</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>255</integer>
-						<key>port</key>
-						<data>
-						AQAAAA==
-						</data>
-					</dict>
-				</dict>
-			</dict>
-			<key>model</key>
-			<string>MacBookPro11,1</string>
-		</dict>
 		<key>MacBookPro11,1-XHC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
@@ -112,6 +44,8 @@
 				<dict>
 					<key>HS02</key>
 					<dict>
+						<key>DevSpeed</key>
+						<integer>2</integer>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>port</key>
@@ -121,6 +55,8 @@
 					</dict>
 					<key>HS03</key>
 					<dict>
+						<key>DevSpeed</key>
+						<integer>1</integer>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>port</key>
@@ -130,6 +66,8 @@
 					</dict>
 					<key>HS06</key>
 					<dict>
+						<key>DevSpeed</key>
+						<integer>1</integer>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>port</key>
@@ -139,6 +77,8 @@
 					</dict>
 					<key>HS07</key>
 					<dict>
+						<key>DevSpeed</key>
+						<integer>1</integer>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>port</key>
@@ -148,6 +88,8 @@
 					</dict>
 					<key>HS08</key>
 					<dict>
+						<key>DevSpeed</key>
+						<integer>2</integer>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>port</key>
@@ -155,8 +97,32 @@
 						CAAAAA==
 						</data>
 					</dict>
+					<key>PR01</key>
+					<dict>
+						<key>DevSpeed</key>
+						<integer>2</integer>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>port</key>
+						<data>
+						AQAAAA==
+						</data>
+					</dict>
+					<key>PR21</key>
+					<dict>
+						<key>DevSpeed</key>
+						<integer>2</integer>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>port</key>
+						<data>
+						AQAAAA==
+						</data>
+					</dict>
 					<key>SS02</key>
 					<dict>
+						<key>DevSpeed</key>
+						<integer>3</integer>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -166,6 +132,8 @@
 					</dict>
 					<key>SS03</key>
 					<dict>
+						<key>DevSpeed</key>
+						<integer>3</integer>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
