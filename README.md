@@ -20,7 +20,7 @@
 - 有线、Wifi
 - 蓝牙
 - 睡眠（鼠标、电源键唤醒正常）
-- 电池显示
+- ~~电池显示~~（失效了，可能要到 OC 去了）
 - 变频（看起来没什么问题）
 
 ## 不能工作的
@@ -65,6 +65,9 @@
 >
 > [查看针脚位置图片](https://www.tenforums.com/network-sharing/115932-intel-ac-7260-wi-fi-pci-e-asus-g73sw-laptop-win10-pro-64-no-go-2.html#post1438095)
 
+
+## 更新
+改用 [headkaze/OS-X-BrcmPatchRAM](https://github.com/headkaze/OS-X-BrcmPatchRAM) 驱动蓝牙和提高 WIFI 稳定性
 
 
 屏蔽独显和亮度键修复使用 hotpatch 补丁， 如使用 `ApplePS2SmartTouchPad.kext` 驱动的话可能导致亮度键无效。

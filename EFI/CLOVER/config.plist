@@ -282,13 +282,25 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Disable panic kext logging on 10.14 release kernel (credit vit9696)</string>
+				<string>Disable panic kext logging on Release kernel</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
-				<data>igKEwHRC</data>
+				<data>AIoChMB0</data>
 				<key>MatchOS</key>
-				<string>10.14.x</string>
+				<string>10.14.4,10.14.5</string>
 				<key>Replace</key>
-				<data>igKEwOtC</data>
+				<data>AIoChMDr</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>https://github.com/acidanthera/bugtracker/issues/513</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>Y29tLmFwcGxlAF9fa2VybmVsX18A</data>
+				<key>Replace</key>
+				<data>bm90LmFwcGxlAF9fa2VybmVsX18A</data>
 			</dict>
 		</array>
 		<key>KextsToPatch</key>
