@@ -23,6 +23,16 @@
 			<array>
 				<dict>
 					<key>Comment</key>
+					<string>_OSI to XOSI</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X09TSQ==</data>
+					<key>Replace</key>
+					<data>WE9TSQ==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>_DSM to XDSM</string>
 					<key>Disabled</key>
 					<false/>
