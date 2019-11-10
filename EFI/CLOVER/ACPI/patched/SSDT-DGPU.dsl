@@ -1,4 +1,16 @@
 // This is a hotpatch for HASEE (K650D-i5 D2) to disabling discrete graphics in dual-GPU laptops.
+// In config ACPI, _REG renamed XREG
+// Find:     <115f5245 4702>
+// Replace:  <11585245 4702>
+// In config ACPI, _WAK renamed XWAK
+// Find:     <5f57414b 09>
+// Replace:  <5857414b 09>
+// In config ACPI, SGOF renamed XGOF
+// Find:     <53474f46 08>
+// Replace:  <58474f46 08>
+// In config ACPI, _INI renamed XINI
+// Find:     <5f494e49 0070005c 2f>
+// Replace:  <58494e49 0070005c 2f>
 DefinitionBlock("", "SSDT", 2, "hack", "D-GPU", 0)
 {
     External (_SB_.PCI0.PEG0.PEGP, DeviceObj)

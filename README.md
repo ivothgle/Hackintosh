@@ -20,7 +20,7 @@
 - 有线、Wifi
 - 蓝牙
 - 睡眠（鼠标、电源键唤醒正常）
-- ~~电池显示~~（失效了，可能要到 OC 去了）
+- 电池显示
 - 变频（看起来没什么问题）
 
 ## 不能工作的
@@ -46,9 +46,9 @@
 
 ![image-20190518223113692](./img/wifi.png)
 
-![image-20190518223322149](./img/audio-total.png)
+![image-20190518223322149](./img/audio-toast.png)
 
-![image-20190518223412135](./img/brightness-total.png)
+![image-20190518223412135](./img/brightness-toast.png)
 
 
 
@@ -67,6 +67,9 @@
 
 
 ## 更新
+
+更新 修复 USB 稳定性，电池显示，注入 PCI 属性
+
 改用 [headkaze/OS-X-BrcmPatchRAM](https://github.com/headkaze/OS-X-BrcmPatchRAM) 驱动蓝牙和提高 WIFI 稳定性
 
 

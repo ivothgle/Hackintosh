@@ -1,5 +1,8 @@
 // This is a hotpatch for HASEE (K650D-i5 D2) backlight control 
 // Fn + F8(down) / F9(up)
+// In config ACPI, _Q12 renamed XQ12
+// Find:     <5f513132 00700a>
+// Replace:  <58513132 00700a>
 DefinitionBlock ("", "SSDT", 2, "hack", "fnkey", 0x00000000)
 {
     External (_SB_.PCI0.LPCB.EC__, DeviceObj)
