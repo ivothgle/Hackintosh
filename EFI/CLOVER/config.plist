@@ -14,8 +14,6 @@
 			<dict>
 				<key>AddDTGP</key>
 				<true/>
-				<key>AddPNLF</key>
-				<true/>
 				<key>FixHPET</key>
 				<true/>
 			</dict>
